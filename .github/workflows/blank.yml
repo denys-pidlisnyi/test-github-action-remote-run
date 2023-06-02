@@ -28,7 +28,7 @@ jobs:
             const result = await github.rest.actions.createWorkflowDispatch({
               owner: 'denys-pidlisnyi',
               repo: 'test-github-action-run',
-              workflow_id: 'test.yml',
+              workflow_id: 'blank.yml',
               ref: 'stable'
             })
             console.log(result)
